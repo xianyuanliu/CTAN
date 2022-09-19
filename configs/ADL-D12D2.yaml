@@ -1,0 +1,15 @@
+DATASET:
+  SOURCE: 'ADL'
+  SRC_TRAINLIST: 'adl_P_04_train.pkl'
+  SRC_TESTLIST: 'adl_P_04_test.pkl'
+  TARGET: 'ADL'
+  TGT_TRAINLIST: 'adl_P_06_train.pkl'
+  TGT_TESTLIST: 'adl_P_06_test.pkl'
+  IMAGE_MODALITY: 'rgb'
+DAN:
+  METHOD: 'DANN'
+MODEL:
+  METHOD: 'i3d'
+  ATTENTION: 'SELayerC'
+OUTPUT:
+  TB_DIR: 'logs/ADL-d12d2/'

@@ -4,11 +4,11 @@
 
 ### Introduction
 
-This repository contains the PyTorch implementation of CTAN framework
-on UDA for first-person action recogniiton.
-CTAN is an adversarial channel-temporal attention network,
-including an I3D backbone, channel- and temporal-wise attention modules,
-and adversarial UDA modules, working on three datasets, EPIC-8, ADL-7 and GTEA_KITCHEN-6.
+This repository contains the PyTorch implementation of the CTAN framework on
+UDA for first-person action recognition.
+CTAN is an adversarial channel-temporal attention network comprised of
+an I3D backbone, channel- and temporal-wise attention modules, and
+adversarial UDA modules trained on EPIC-8, ADL-7, and GTEA KITCHEN-6 datasets.
 
 -----------------------------------------
 
@@ -22,7 +22,8 @@ and adversarial UDA modules, working on three datasets, EPIC-8, ADL-7 and GTEA_K
 
 ### Datasets
 
-Prepare the datasets (EPIC-8, ADL-7 and GTEA_KITCHEN-6) following the guidances below and put them into `./data`.
+Prepare the datasets (EPIC-8, ADL-7, and GTEA KITCHEN-6) according to the instructions below and
+place them in the `./data` directory.
 
 #### EPIC-8
 Download RGB frames from participants P01, P08 and P22 of the EPIC-KITCHENS-55 dataset, using
@@ -52,7 +53,7 @@ pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f ht
 pip install -r requirements.txt
 ```
 
-Run CTAN for EPIC-8, ADL-7 and GTEA_KITCHEN-6 respectively 
+Run CTAN on EPIC-8, ADL-7 and GTEA_KITCHEN-6 respectively 
 (For more domains, please edit the yaml files in `./configs`)
 
 ```
@@ -69,12 +70,12 @@ python main.py --cfg configs/G2K.yaml
 ### Citation
 
 ```lang-latex
-    @article{liu2021channel,
-        title   = {Channel-Temporal Attention for First-Person Video Domain Adaptation},
-        author  = {Liu, Xianyuan and Zhou, Shuo and Lei, Tao and Lu, Haiping},
-        journal = {arXiv:2108.07846 [cs.CV]},
-        year    = {2021}
-    }
+@article{liu2021channel,
+    title   = {Channel-Temporal Attention for First-Person Video Domain Adaptation},
+    author  = {Liu, Xianyuan and Zhou, Shuo and Lei, Tao and Lu, Haiping},
+    journal = {arXiv:2108.07846 [cs.CV]},
+    year    = {2021}
+}
 ```
 
 -----------------------------------------

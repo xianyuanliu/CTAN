@@ -1,0 +1,15 @@
+DATASET:
+  SOURCE: 'GTEA'
+  SRC_TRAINLIST: 'gtea_train.pkl'
+  SRC_TESTLIST: 'gtea_test.pkl'
+  TARGET: 'KITCHEN'
+  TGT_TRAINLIST: 'kitchen_train.pkl'
+  TGT_TESTLIST: 'kitchen_test.pkl'
+  IMAGE_MODALITY: 'rgb'
+DAN:
+  METHOD: 'DANN'
+MODEL:
+  METHOD: 'i3d'
+  ATTENTION: 'SELayerCT'
+OUTPUT:
+  TB_DIR: 'logs/EPIC-d12d2-dann/'
