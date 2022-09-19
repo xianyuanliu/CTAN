@@ -15,7 +15,7 @@ This repository contains the PyTorch implementation of the CTAN framework on
 UDA for first-person action recognition.
 CTAN is an adversarial channel-temporal attention network comprised of
 an I3D backbone, channel- and temporal-wise attention modules, and
-adversarial UDA modules trained on EPIC-8 [1], ADL-7, and GTEA KITCHEN-6 datasets.
+adversarial UDA modules trained on EPIC-8 [1], ADL-7, and GTEA_KITCHEN-6 datasets.
 
 
 ## Framework
@@ -30,7 +30,7 @@ adversarial UDA modules trained on EPIC-8 [1], ADL-7, and GTEA KITCHEN-6 dataset
 Prepare the datasets (EPIC-8 [1], ADL-7, and GTEA KITCHEN-6) according to the instructions below and
 place them in the `./data` directory.
 
-## EPIC-8 [1]
+### EPIC-8
 Download RGB frames from participants P01, P08 and P22 of the EPIC-KITCHENS-55 dataset, using
 official download script [here](https://github.com/epic-kitchens/epic-kitchens-download-scripts).
 
