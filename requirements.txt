@@ -188,7 +188,7 @@ urllib3==1.26.9
 virtualenv==20.14.1
 wcwidth==0.2.5
 webencodings==0.5.1
-Werkzeug==2.0.3
+Werkzeug==2.2.3
 widgetsnbextension==3.6.0
 wincertstore==0.2
 yacs==0.1.8
