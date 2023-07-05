@@ -42,7 +42,7 @@ glob2==0.7
 google-auth==2.7.0
 google-auth-oauthlib==0.4.6
 googledrivedownloader==0.4
-grpcio==1.46.3
+grpcio==1.53.0
 identify==2.4.4
 idna==3.3
 idna-ssl==1.1.0
