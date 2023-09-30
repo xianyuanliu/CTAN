@@ -72,11 +72,14 @@ python main.py --cfg configs/G2K.yaml
 ## Citation
 
 ```lang-latex
-@article{liu2021channel,
-    title   = {Channel-Temporal Attention for First-Person Video Domain Adaptation},
-    author  = {Liu, Xianyuan and Zhou, Shuo and Lei, Tao and Lu, Haiping},
-    journal = {arXiv:2108.07846 [cs.CV]},
-    year    = {2021}
+@article{liu2023first,
+  title={First-person video domain adaptation with multi-scene cross-site datasets and attention-based methods},
+  author={Liu, Xianyuan and Zhou, Shuo and Lei, Tao and Jiang, Ping and Chen, Zhixiang and Lu, Haiping},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2023},
+  publisher={IEEE},
+  doi={10.1109/TCSVT.2023.3281671},
+  html={https://ieeexplore.ieee.org/document/10139790},
 }
 ```
 
