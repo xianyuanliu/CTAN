@@ -3,6 +3,7 @@
 
 <div align="left">
 
+[![IEEE TCSVT](https://img.shields.io/badge/TCSVT-10.1109/TCSVT.2023.3281671-blue)]([https://arxiv.org/abs/2108.07846](https://ieeexplore.ieee.org/abstract/document/10139790))
 [![arXiv](https://img.shields.io/badge/arXiv-2108.07846-%3CCOLOR%3E.svg)](https://arxiv.org/abs/2108.07846)
 
 </div>
